@@ -1,0 +1,26 @@
+# Exact versions used for the reproducible reference run (Python 3.14).
+# Upgrade intentionally and rerun the scientific regression tests.
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+pyarrow==24.0.0         # parquet IO
+
+# Wavelet core
+pycwt==0.5.0b0          # XWT, WTC, Monte-Carlo significance (AR1 surrogates)
+PyWavelets==1.9.0       # DWT/MODWT for scale-dependent VaR
+
+# Benchmark
+arch==8.0.0             # GARCH / DCC-style conditional correlation
+
+# Data sources (used on a machine with network access)
+ccxt==4.5.57           # unified crypto exchange API (Binance, etc.)
+yfinance==1.4.1        # traditional assets (S&P500, gold, DXY)
+pycoingecko==3.2.0     # long crypto history
+requests==2.34.2
+
+# Plotting / notebooks
+matplotlib==3.10.9
+jupyter==1.1.1
+
+# Optional (Phase 5 DL bow-tie) - install manually if needed:
+# torch>=2.0

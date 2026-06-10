@@ -1,0 +1,25 @@
+{
+  "name": "wavelet-crypto-risk-tradingview",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TradingView data collector for the wavelet crypto-risk research pipeline",
+  "main": "tradingview/cli.js",
+  "scripts": {
+    "tv": "node tradingview/cli.js",
+    "tv:history": "node tradingview/cli.js history-all",
+    "tv:live": "node tradingview/cli.js live",
+    "tv:search": "node tradingview/cli.js search",
+    "tv:ta": "node tradingview/cli.js ta",
+    "tv:indicator": "node tradingview/cli.js indicator",
+    "tv:replay": "node tradingview/cli.js replay",
+    "tv:spread": "node tradingview/cli.js spread",
+    "test:tv": "node --test tradingview/test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@mathieuc/tradingview": "3.5.2",
+    "dotenv": "^16.6.1"
+  }
+}

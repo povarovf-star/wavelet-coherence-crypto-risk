@@ -1,0 +1,31 @@
+# Data - keep per-symbol raw exports out of git, but retain the compact
+# aggregate TradingView panel so a fresh clone reproduces the reported results.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/tradingview/
+data/raw/tradingview/*
+!data/raw/tradingview/prices.csv
+# Keep processed sample so the repo runs out-of-the-box; comment the next line to ignore it.
+# data/processed/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Outputs that are regenerated (figures kept for README)
+# figures/*
