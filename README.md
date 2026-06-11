@@ -326,3 +326,15 @@ figures/  results/  data/{raw,processed}/  tradingview/
 - Engle, R. (2002). *Dynamic Conditional Correlation.* JBES 20(3), 339-350.
 - Maraun, D., Kurths, J. (2004). *Cross wavelet analysis: significance testing
   and pitfalls.* Nonlinear Processes in Geophysics 11, 505-514.
+
+## Оговорка
+
+Это исследовательский код, написанный для себя. Ничего из репозитория не
+является инвестиционной рекомендацией. Цифры в README получены на исторических
+данных конкретного окна и зависят от выбора эпизодов, окон и параметров
+вейвлета; воспроизводимость обеспечена, но за пределы выборки не
+экстраполируется.
+
+## Лицензия
+
+MIT, см. [LICENSE](LICENSE).
