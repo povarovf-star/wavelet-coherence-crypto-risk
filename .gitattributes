@@ -1,0 +1,14 @@
+# GitHub Linguist: keep the language bar focused on the Python pipeline,
+# not the large notebooks and cached data artifacts.
+*.ipynb    linguist-documentation
+
+data/**    linguist-generated
+results/** linguist-generated
+figures/** linguist-generated
+*.parquet  linguist-generated
+*.npz      linguist-generated
+
+# Binary artifacts (no line-ending normalization, no text diffs).
+*.png      binary
+*.parquet  binary
+*.npz      binary

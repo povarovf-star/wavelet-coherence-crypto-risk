@@ -1,5 +1,9 @@
 # Wavelet Coherence Crypto Risk
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Tests](https://img.shields.io/badge/tests-6%20py%20%2F%205%20node-brightgreen)
+
 Исследовательский пайплайн для многомасштабного анализа корреляционного риска
 крипто-портфеля: собираем рыночные данные, строим панель лог-доходностей, затем
 переходим к wavelet coherence, фазам lead-lag и стрессовым VaR/ES.
@@ -334,6 +338,19 @@ figures/  results/  data/{raw,processed}/  tradingview/
 данных конкретного окна и зависят от выбора эпизодов, окон и параметров
 вейвлета; воспроизводимость обеспечена, но за пределы выборки не
 экстраполируется.
+
+## Как ссылаться
+
+Если код или результаты пригодились:
+
+```bibtex
+@misc{povarov2026wavelet,
+  author = {Povarov, Fedor},
+  title  = {Wavelet Coherence Crypto Risk},
+  year   = {2026},
+  url    = {https://github.com/povarovf-star/wavelet-coherence-crypto-risk}
+}
+```
 
 ## Лицензия
 
